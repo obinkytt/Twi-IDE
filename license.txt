@@ -1,0 +1,19 @@
+Twi Programming IDE – License Agreement
+=======================================
+
+Copyright (c) 2025
+Dr. Williams T. Obinkyereh
+All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+and associated documentation files (the "Software"), to use, copy, modify, and distribute 
+copies of the Software for educational and non-commercial purposes only, subject to the following conditions:
+
+1. The Software must not be sold or used for commercial purposes without written permission.
+2. This license and copyright notice must be included in all copies.
+3. The Software is provided "as is", without warranty of any kind.
+
+For permissions beyond this license, contact:
+Email: obinkytt@yahoo.co.uk
+
+Made for Educational Use in Ghana and Worldwide.

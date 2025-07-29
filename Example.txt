@@ -1,0 +1,10 @@
+# Example: Function with Input and Condition
+
+yɛ frɛpa():
+    din = fa("Wo din de sɛn? ")
+    sɛ din == "Kwame":
+        kyerɛ("Agoo Kwame!")
+    naaso:
+        kyerɛ("Yɛfrɛ wo " + din)
+
+frɛpa()
