@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TwiIDE Web</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>TwiIDE Web</h1>
+    <textarea id="editor" placeholder="Write your code here..."></textarea>
+    <br>
+    <button onclick="runCode()">Run</button>
+    <pre id="output"></pre>
+
+    <script>
+        function runCode() {
+            const code = document.getElementById("editor").value;
+            fetch("/run", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({code: code})
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").textContent = data.output;
+            });
+        }
+    </script>
+</body>
+</html>
